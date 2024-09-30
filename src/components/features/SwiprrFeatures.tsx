@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 import { useRef } from "react";
 import card1 from './images/group9.png';
-import card2 from './images/Group10.png';
+import card2 from './images/group10.png';
 import card3 from './images/group12.png';
 import card4 from './images/group13.png';
 
