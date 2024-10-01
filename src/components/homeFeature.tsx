@@ -182,7 +182,7 @@ const HomeFeature: React.FC<{ feature: HomeFeatureProps; left: boolean }> = ({
 
   return (
     <div ref={containerRef} id={feature.name.replace(/\s+/g, "-").toLowerCase()}>
-      <h6 className="text-lg font-[500] w-full px-10 pt-1 mb-20  sm:m-0 text-center text-gray-800 dark:text-gray-300 sm:pt-12 lg:pt-20">
+      <h6 className="text-[12px] sm:text-lg font-[500] w-full px-10 pt-6 mt-7 sm:mt-0  mb-20  sm:m-0 text-center text-gray-800 dark:text-gray-300 sm:pt-12 lg:pt-20">
         See what you can do and Explore {feature.name}
         <div className="flex items-center justify-center mt-1 animate-bounce" onClick={handleScroll}>
           <KeyboardArrowDownOutlinedIcon />

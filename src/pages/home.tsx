@@ -38,8 +38,8 @@ const Home: React.FC<HomeProps> = ({}) => {
   }, [location]);
   return (
     <div  className="px-2 py-8 sm:px-6 sm:py-6">
-      <div id='home-section' className="p-4 flex flex-col sm:flex-row mt-0 sm:items-center justify-center sm:justify-start h-[calc(68vh-65px)] ml-2 gap-10">
-        <div className="max-w-[600px] px-4 sm:px-8 pb-12 sm:mr-10 gap-6 text-center text-sm">
+      <div id='home-section' className="p-4 pt-14 sm:pt-0 flex flex-col sm:flex-row mt-0 sm:items-center justify-center sm:justify-start h-[calc(68vh-65px)] ml-2 gap-2 sm:gap-6">
+        <div className="max-w-[600px] px-4 pt-6 sm:pt-0 sm:px-8 sm:pb-12 sm:mr-10 gap-2 sm:gap-6 text-center text-sm">
           <Typography
             variant="h3"
             className="hidden mt-4 font-light text-center text-gray-800 sm:flex sm:text-left dark:text-gray-300"
@@ -71,34 +71,26 @@ const Home: React.FC<HomeProps> = ({}) => {
 
           <br />
 
-          <div className="flex flex-col items-center mt-6 sm:flex-row sm:justify-start sm:gap-0">
-            <p className="text-sm dark:text-white sm:mr-2">
+          <div className="flex flex-row items-center sm:mt-6 sm:flex-row sm:justify-start justify-center gap-2 sm:gap-2">
+            <p className="text-[8px] sm:text-sm dark:text-white sm:mr-2">
               +91 70959 31891 
             </p>
             <Link
-              to={""}
-              className="flex-grow text-sm text-blue-500 sm:flex-grow-0"
+              to={"https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"}
+              className="text-[8px] sm:text-sm text-blue-500"
             >
               shahidshaik.online@gmail.com
             </Link>
           </div>
         </div>
-        <div className="items-center justify-center hidden pt-16 mt-4 ml-16 sm:flex ">
-          <img
-            src={Profile}
-            className="w-full h-[calc(68vh-140px)] object-cover object-center"
-            alt="Banner"
-            style={{ display: "none" }}
-          />
-        </div>
+        <div className="items-center justify-center pt-6 sm:pt-16 sm:mt-6 sm:ml-16 w-full flex pb-14 sm:pb-0">
+        <img
+          src={Profile}
+          className="w-full h-auto sm:h-[calc(90vh-130px)]"
+          alt="Banner"
+        />
+      </div>
 
-        <div className="items-center justify-center hidden pt-16 mt-6 ml-16 sm:flex ">
-          <img
-            src={Profile}
-            className="w-full h-[calc(90vh-130px)] object-cover object-center"
-            alt="Banner"
-          />
-        </div>
       </div>
 
       <br />
@@ -183,7 +175,7 @@ const Home: React.FC<HomeProps> = ({}) => {
 
           <div className="flex items-center justify-center gap-4">
             <Button variant="contained" size="small">
-              <Link to={"https://www.linkedin.com/in/shahid-shaik-abb077278/"}>
+              <Link to={"https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"}>
                 Contact Me
               </Link>
             </Button>
