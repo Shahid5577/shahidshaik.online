@@ -73,7 +73,9 @@ const Home: React.FC<HomeProps> = ({}) => {
 
           <div className="flex flex-row items-center sm:mt-6 sm:flex-row sm:justify-start justify-center gap-2 sm:gap-2">
             <p className="text-[8px] sm:text-sm dark:text-white sm:mr-2">
-              +91 70959 31891 
+              <Link to="https://www.linkedin.com/in/shahid-shaik-abb077278/">
+               LinkedIn
+               </Link>
             </p>
             <Link
               to={"https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"}
